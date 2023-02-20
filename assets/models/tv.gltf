@@ -1,0 +1,248 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "node-0",
+            "scale" : [
+                0.021628109738230705,
+                0.021628109738230705,
+                0.021628109738230705
+            ],
+            "translation" : [
+                -0.8775811195373535,
+                -162.1031036376953,
+                163.6256561279297
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Node_3",
+            "translation" : [
+                0.6236422061920166,
+                15.825888633728027,
+                -146.12460327148438
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Node_2",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                0.7071068286895752,
+                -1.1102231569740545e-16
+            ],
+            "translation" : [
+                -0.6236422061920166,
+                -16.290964126586914,
+                146.12460327148438
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Node_1"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "blinn5SG",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.009999999776482582,
+                    0.009999999776482582,
+                    0.009999999776482582,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9699476361274719
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "blinn3SG",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.3400000035762787,
+                    0.3400000035762787,
+                    0.3400000035762787,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9699476361274719
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "buffer-0-mesh-0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 294,
+            "max" : [
+                199.51255798339844,
+                24.556522369384766,
+                157.29486083984375
+            ],
+            "min" : [
+                -214.73155212402344,
+                -39.51467514038086,
+                -102.13715362548828
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 294,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 294,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 294,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 6,
+            "max" : [
+                -1.620859146118164,
+                24.556522369384766,
+                -54.179527282714844
+            ],
+            "min" : [
+                -23.974313735961914,
+                24.556522369384766,
+                -58.615516662597656
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 6,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 6,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 3528,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3528,
+            "byteOffset" : 3528
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2352,
+            "byteOffset" : 7056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 588,
+            "byteOffset" : 9408
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 9996
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 10068
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10140
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 10188
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 10200,
+            "uri" : "tv.bin"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "three_parcel",
+  "source": "./src/index.html",
+  "staticFiles": {
+    "staticOutPath": "./assets/models",
+    "staticPath": "./assets/models"
+  },
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "parcel": "^2.8.3",
+    "parcel-reporter-static-files-copy": "^1.5.0"
+  },
+  "dependencies": {
+    "@react-three/xr": "^5.2.0",
+    "three": "^0.149.0"
+  }
+}
